@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "DoneWithIt",
     "slug": "DoneWithIt",
     "version": "1.0.0",
@@ -24,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8498eac-57ad-4395-8caf-3d8aeb1a7dd7"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b8498eac-57ad-4395-8caf-3d8aeb1a7dd7"
     }
   }
 }
